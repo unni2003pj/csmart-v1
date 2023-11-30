@@ -547,6 +547,11 @@
         padding: 32px;
         border-radius: 32px;
     }
+    .alert-card.column p {
+        font-size: 20px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
 
     /*------ Main Content CSS End ------*/
     
