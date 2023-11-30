@@ -1,0 +1,293 @@
+:root {
+    --service-theme: linear-gradient(72deg, rgba(11, 16, 127, 0.25) 22.16%, rgba(196, 8, 109, 0.25) 76.47%), #000;
+    --service-sub-theme: linear-gradient(72deg, rgba(0, 93, 54, 0.25) 22.16%, rgba(54, 47, 99, 0.25) 49.32%, rgba(116, 0, 144, 0.25) 76.47%), #000;
+}
+
+/*------ Banner CSS ------*/
+
+.branch .banner-block {
+    height: 29.688vw;
+}
+.branch .banner-block {
+    background: var(--service-theme);
+}
+.service .banner-block {
+    background: var(--service-sub-theme);
+}
+.branch .banner-block:before {
+    content: none;
+    display: none;
+}
+.branch .animation-wrapper {
+    opacity: .6;
+}
+.branch .circle-sm-left {
+    top: 7.5vh;
+    left: -4.271vw;
+}
+.branch .triangle-sm-left {
+    left: 2.969vw;
+    top: 7.5vh;
+}
+.branch .triangle-lg-left {
+    left: 5.417vw;
+    top: 4.167vh;
+}
+.branch .circle-lg-center {
+    left: 16.615vw;
+    top: 4.259vh;
+}
+.branch .circle-sm-center {
+    left: 20.417vw;
+    top: 2.037vh;
+}
+.branch .triangle-bordered {
+    left: 0;
+    bottom: 7.593vh;
+}
+.branch .corner-art {
+    width: 6.198vw;
+    height: 8.981vh;
+    right: 30.185vh;
+    top: 2.344vw;
+}
+.branch .circle-sm-right {
+    right: -4.271vw;
+    bottom: 12.593vh;
+}
+.branch .circle-lg-right {
+    right: -15.926vh;
+    bottom: 3.281vw;
+}
+.service .triangle-bordered {
+    left: -15.185vh;
+    bottom: 7.593vh;
+}
+.branch .banner-block .container {
+    padding-bottom: 0;
+}
+.branch .carousel-text-content {
+    width: 100%;
+    max-width: 100%;
+}
+.branch .carousel-text-content h1, 
+.branch .carousel-text-content p {
+    max-width: 78%;
+}
+.branch .carousel-inner-block figure {
+    width: 10.417vw;
+    height: 10.417vw;
+}
+
+/*------ Banner CSS End ------*/
+
+/*------ Main Content CSS ------*/
+
+.ico-grid-card {
+    float: left;
+    width: 100%;
+    margin-bottom: 3.333vw;
+}
+.ico-grid-card figure {
+    width: 2.917vw;
+    height: 2.917vw;
+    margin-bottom: 0.938vw;
+}
+.ico-grid-card h5 {
+    width: 100%;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.083vw;
+}
+.ico-grid-header {
+    width: 100%;
+    margin-bottom: 1.667vw;
+}
+.ico-grid-header h6 {
+    width: 100%;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.083vw;
+    color: var(--grey-color);
+}
+.ico-grid-header p {
+    width: 100%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.563vw;
+}
+.ico-grid-card .section-button-block {
+    margin-top: 1.667vw;
+}
+.lg p {
+    font-size: 1.458vw;
+    font-style: normal;
+    line-height: 2.292vw;
+}
+.ico-grid-card.minimal {
+    margin: 0 0 1.667vw 0;
+}
+.minimal .ico-grid-header {
+    margin-bottom: 0.625vw;
+}
+.ico-grid-card.minimal h5 {
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.563vw;
+    margin-bottom: 0.625vw;
+}
+.ico-grid-card.minimal figure {
+    margin-bottom: 0.625vw;
+}
+.ico-grid-card p {
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.563vw;
+}
+
+/*------ Main Content CSS End ------*/
+
+/*------ Media Queries ------*/
+
+@media(max-width: 1440px) {
+
+}
+
+@media(max-width: 1366px) { 
+    
+}
+
+@media(max-width: 1280px) { 
+    
+}
+
+@media(max-width: 1024px) { 
+
+    /*------ Banner CSS ------*/
+    
+    .branch .banner-block {
+        height: 570px;
+    }  
+    .branch .circle-sm-left {
+        left: 0;
+        top: 15px;
+    }
+    .branch .triangle-sm-left {
+        top: 48px;
+        left: 9.74vw;
+    }
+    .branch .triangle-lg-left {
+        top: 20px;
+        left: 16.354vw;
+    }
+    .branch .corner-art {
+        width: 80px;
+        right: 0;
+        top: 25px;
+    }
+    .service .triangle-bordered {
+        left: 0;
+        bottom: 30px;
+    }
+    .service .circle-sm-right,
+    .branch .circle-sm-right {
+        width: 3.021vw;
+        right: 46px;
+        bottom: 59px;
+        display: block;
+    }
+    .service .circle-lg-right, 
+    .branch .circle-lg-right {
+        right: 4.312vw;
+        display: block;
+        width: 30px;
+        height: 30px;
+        bottom: 3.19vh;
+    }
+    .branch .carousel-inner-block figure {
+        order: 0;
+        margin-bottom: 15px; 
+        width: 100px;
+        height: 100px;
+    }
+    .carousel-inner-block .carousel-text-content {
+        order: 1;
+    }
+    .carousel-inner-block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-inner-block figure img {
+        width: 85px;
+    }
+    .carousel-inner-block .breadcrumb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+    .carousel-text-content h1 {
+        text-align: center;
+        max-width: 100% !important;
+        padding: 0 20px;
+    }
+
+    /*------ Banner CSS End ------*/
+
+    /*------ Main Content CSS ------*/
+
+    .ico-grid-card {
+        margin-bottom: 50px;
+    }
+    .ico-grid-card figure {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 18px;
+    }    
+    .ico-grid-card h5 {
+        font-size: 28px;
+        line-height: 40px;
+    }    
+    .ico-grid-header h6 {
+        font-size: 18px;
+        line-height: 35px;
+    }    
+    .ico-grid-card p {
+        font-size: 16px;
+        line-height: 30px;
+    }    
+    .ico-grid-card .section-button-block {
+        margin-top: 20px;
+    }
+    .lg p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .mt-32 {
+        margin-top: 32px;
+    }
+    .ico-grid-card.minimal {
+        margin-bottom: 20px;
+    }
+    .ico-grid-card.minimal figure {
+        margin-bottom: 18px;
+    }
+    .ico-grid-card.minimal h5 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+
+    /*------ Main Content CSS End ------*/
+}
+
+@media (max-width: 767px) {
+
+   
+}

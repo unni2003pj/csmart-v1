@@ -1,0 +1,557 @@
+:root {
+    --product-theme: linear-gradient(72deg, rgba(255, 0, 255, 0.25) 22.16%, rgba(255, 175, 0, 0.25) 76.47%), #000;
+    --theme-cpq: linear-gradient(90deg, #DEB4B4 20.33%, #986060 75.21%);
+    --theme-inventory: linear-gradient(180deg, #BE00AB 0%, #620058 100%);
+    --theme-vouchers: linear-gradient(180deg, #BA56E9 0%, #663180 100%);
+    --theme-contracts: linear-gradient(90deg, #CEED87 0%, #80B179 100%);
+    --theme-campaign: linear-gradient(90deg, #DCA270 37.53%, #D96F36 96.69%);
+    --theme-cvm: linear-gradient(90deg, #E57E6E 7.14%, #AB513F 94.84%);
+    --theme-case: linear-gradient(90deg, #ABD4BD 16.55%, #70A686 92.87%);
+    --theme-care: linear-gradient(90deg, #96D6BD 20.25%, #189E69 83.47%);
+    --theme-survey: linear-gradient(90deg, #5FC887 10.67%, #1264A4 99.44%);
+    --theme-billing: linear-gradient(90deg, #D1BEEF -6.12%, #99BCEE 118.37%);
+    --theme-revshare: linear-gradient(90deg, #D2A4D5 5.33%, #DA6275 106.67%);
+    --theme-ireport: linear-gradient(90deg, #DF684A 9.48%, #B50707 119.83%);
+    --theme-tcrm: linear-gradient(90deg, #9AE7F3 22.02%, #72AAEB 104.76%);
+    --theme-scrm: linear-gradient(90deg, #F49097 23.14%, #A01313 88.84%);
+    --theme-ecrm: linear-gradient(90deg, #E9BF90 27.27%, #C485D4 86.36%);
+    --theme-iotcrm: linear-gradient(90deg, #6271FF -3.79%, #211190 108.33%);
+    --theme-dealer: linear-gradient(90deg, #7F88A3 10.83%, #4B4E5A 95.83%);
+    --theme-ipass: linear-gradient(90deg, #517793 0.01%, #57A3D9 105.49%);
+    --theme-bre: linear-gradient(90deg, #876F6B 13.22%, #493C3A 85.54%);
+    --theme-observability: linear-gradient(270deg, #0C3958 2.48%, #3287C2 83.88%);
+    --theme-tgai: linear-gradient(90deg, #70C5A6 4.21%, #D66060 104.67%);
+}
+
+/*------ Banner CSS ------*/
+
+.branch .banner-block {
+    height: 29.688vw;
+}
+.product .banner-block {
+    background: var(--product-theme);
+}
+.branch .banner-block:before {
+    content: none;
+    display: none;
+}
+.branch .animation-wrapper {
+    opacity: .6;
+}
+.branch .plus-sm {
+    width: 1.198vw;
+    height: 2.13vh;
+    left: -10.313vw;
+    top: 3.241vh;
+}
+.branch .plus-lg {
+    width: 3.426vh;
+    height: 1.927vw;
+    left: -7.031vw;
+    top: 6.389vh;
+}
+.branch .circle-sm-left {
+    left: 7.969vw;
+    top: 3.704vh;
+}
+.branch .circle-lg-center {
+    left: 16.615vw;
+    top: 4.259vh;
+}
+.branch .circle-lg-right-top {
+    width: 3.021vw;
+    height: 5.37vh;
+    right: 31.667vh;
+    top: 4.167vw;
+}
+.branch .circle-sm-right-top {
+    width: 3.021vw;
+    height: 2.685vh;
+    right: 28.519vh;
+    top: 3.021vw;
+}
+.branch .percentage-corner {
+    width: 5.729vw;
+    height: 10.185vh;
+    top: 1.389vh;
+    right: -8.854vw;
+}
+.branch .sum-corner {
+    width: 5.729vw;
+    height: 10.185vh;
+    bottom: 6.944vh;
+    left: -9.844vw;
+}
+.branch .circle-sm-right {
+    width: 3.021vw;
+    height: 2.685vh;
+    right: -7.708vw;
+    bottom: 8.519vh;
+}
+.branch .circle-lg-right {
+    width: 5.37vh;
+    height: 3.021vw;
+    right: -9.688vw;
+    bottom: 3.519vh;
+}
+.product .circle-sm-left {
+    top: 7.5vh;
+    left: -4.271vw;
+}
+.product .triangle-sm-left {
+    left: 2.969vw;
+    top: 7.5vh;
+}
+.product .triangle-lg-left {
+    left: 5.417vw;
+    top: 4.167vh;
+}
+.product .circle-lg-center {
+    left: 16.615vw;
+    top: 4.259vh;
+}
+.product .circle-sm-center {
+    left: 20.417vw;
+    top: 2.037vh;
+}
+.product .triangle-bordered {
+    left: 0;
+    bottom: 7.593vh;
+}
+.product .corner-art {
+    width: 6.198vw;
+    height: 8.981vh;
+    right: 30.185vh;
+    top: 2.344vw;
+}
+.product .circle-sm-right {
+    right: -4.271vw;
+    bottom: 12.593vh;
+}
+.product .circle-lg-right {
+    right: -15.926vh;
+    bottom: 3.281vw;
+}
+.branch .banner-block .container {
+    padding-bottom: 0;
+}
+.branch .carousel-text-content {
+    width: 100%;
+    max-width: 100%;
+}
+.branch .carousel-text-content h1, 
+.branch .carousel-text-content p {
+    max-width: 78%;
+}
+.branch .carousel-inner-block figure {
+    width: 10.417vw;
+    height: 10.417vw;
+}
+
+/*------ Banner CSS End ------*/
+
+/*------ Main Content CSS ------*/
+
+.product-list.mt-32 {
+    margin-top: 32px;
+}
+.alert-card.column {
+    flex-direction: column;
+}
+.alert-card.column p {
+    width: 100%;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875vw;
+    text-align: center;
+    margin-bottom: 1.667vw;
+}
+.alert-card.column p:last-child {
+    margin-bottom: 0;
+}
+.product-feature-card {
+    width: 100%;
+    height: calc(100% - 1.667vw);
+    border-radius: 1.042vw;
+    padding: 1.25vw;
+    margin: 0.833vw 0;
+    background: var(--theme-cpq);
+    position: relative;
+}
+.product-feature-card:after {
+    content: "";
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    background: #F5F6F8;
+    border-radius: 1.042vw;
+    z-index: 1;
+}
+.product-feature-card-inner {
+    position: relative;
+    z-index: 2;
+}
+.product-feature-card-inner figure {
+    width: 31px;
+    height: 31px;
+    margin-bottom: 8px;
+}
+.product-feature-card-inner h5 {
+    width: 100%;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.083vw;
+}
+.product-feature-card-inner p {
+    width: 100%;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.563vw;
+}
+.card-slider .slick-track {
+    display: flex !important;
+}
+.each-card-slider {
+    background: var(--white);
+    height: auto;
+    padding: 2.344vw 0.938vw;
+    border-radius: 36px;
+    margin: 1.667vw 0.781vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.each-card-slider figure {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.781vw;
+}
+.each-card-slider figure img {
+    width: 3.75vw;
+}
+.card-slider-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-slider-content h5 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875vw;
+    margin: 0.625vw 0;
+}
+.card-slider-content p {
+    width: 100%;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.563vw;
+    text-align: center;
+}
+.theme-bg {
+    background: var(--brand---banner, linear-gradient(72deg, #072A40 22.16%, #023120 76.47%), rgba(0, 0, 0, 0.00));
+}
+.theme-bg .section-header h3 {
+    color: var(--white);
+}
+.theme-bg .section-button-block {
+    margin-top: 0.625vw;
+}
+.branch .section-button-block .action-btn {
+    height: 3.125vw;
+    margin-right: 1.875vw;
+}
+.p-inventory .product-feature-card {
+    background: var(--theme-inventory);
+}
+.p-voucher .product-feature-card {
+    background: var(--theme-vouchers);
+}
+.p-contract .product-feature-card {
+    background: var(--theme-contracts);
+}
+.p-campaign .product-feature-card {
+    background: var(--theme-campaign);
+}
+.p-cvm .product-feature-card {
+    background: var(--theme-cvm);
+}
+.p-case .product-feature-card {
+    background: var(--theme-case);
+}
+.p-care .product-feature-card {
+    background: var(--theme-care);
+}
+.p-survey .product-feature-card {
+    background: var(--theme-survey);
+}
+.p-billing .product-feature-card {
+    background: var(--theme-billing);
+}
+.p-revshare .product-feature-card {
+    background: var(--theme-revshare);
+}
+.p-ireport .product-feature-card {
+    background: var(--theme-ireport);
+}
+.p-tcrm .product-feature-card {
+    background: var(--theme-tcrm);
+}
+.p-scrm .product-feature-card {
+    background: var(--theme-scrm);
+}
+.p-ecrm .product-feature-card {
+    background: var(--theme-ecrm);
+}
+.p-iot-crm .product-feature-card {
+    background: var(--theme-iotcrm);
+}
+.p-dealer .product-feature-card {
+    background: var(--theme-dealer);
+}
+.p-ipass .product-feature-card {
+    background: var(--theme-ipass);
+}
+.p-bre .product-feature-card {
+    background: var(--theme-bre);
+}
+.p-observability .product-feature-card {
+    background: var(--theme-observability);
+}
+.p-tgai .product-feature-card {
+    background: var(--theme-tgai);
+}
+
+/*------ Main Content CSS End ------*/
+
+/*------ Media Queries CSS ------*/
+
+@media(max-width: 1440px) {
+
+    /*------ Banner CSS ------*/
+
+    .branch .plus-sm {
+        left: -7.313vw;
+    }
+    .branch .plus-lg {
+        left: -5.031vw;
+    }
+    .branch .percentage-corner {
+        right: -6.854vw;
+    }
+    .branch .sum-corner {
+        left: -6.844vw;
+    }
+    .branch .circle-sm-right {
+        right: -5.708vw;
+    }
+    .branch .circle-lg-right {
+        right: -7.688vw;
+    }
+
+    /*------ Banner CSS End ------*/
+}
+
+@media(max-width: 1366px) { 
+
+    /*------ Banner CSS ------*/
+
+    .branch .plus-sm {
+        left: -5.313vw;
+    }
+    .branch .plus-lg {
+        left: -3.031vw;
+    }
+    .branch .circle-sm-right {
+        right: -3.708vw;
+    }
+    .branch .circle-lg-right {
+        right: -5.688vw;
+    }
+
+    /*------ Banner CSS End ------*/
+}
+
+@media(max-width: 1280px) { 
+
+}
+
+@media(max-width: 1024px) { 
+
+    /*------ Banner CSS ------*/
+
+    .branch .banner-block {
+        height: 570px;
+    }
+    .branch .plus-sm {
+        width: 16px;
+        height: 16px;
+        left: -0.313vw;
+    }
+    .branch .plus-lg {
+        left: 5.969vw;
+        width: 32px;
+        height: 32px;
+    }
+    .branch .sum-corner {
+        width: 41px;
+        left: 0;
+        bottom: 0;
+    }
+    .branch .percentage-corner {
+        width: 41px;
+        right: 0;
+        top: 0;
+    }
+    .branch .circle-sm-right {
+        right: 46px;
+        bottom: 59px;
+        display: block;
+    }
+    .branch .circle-lg-right {
+        width: 30px;
+        height: 30px;
+        right: 1.074vh;
+        bottom: 3.593vh;
+        display: block;
+    }
+    .branch .circle-sm-right-top {
+        width: 40px;
+        right: 76px;
+    }    
+    .branch .circle-lg-right-top {
+        width: 16px;
+        height: 16px;
+        right: 12.667vh;
+        top: 33px;
+    }
+    .branch .circle-sm-left {
+        width: 15px;
+        left: 25.729vw;
+    }
+    .branch .corner-art {
+        width: 48px;
+        right: 0;
+    }
+    .product .triangle-sm-left {
+        left: 10.969vw;
+    }
+    .product .triangle-lg-left {
+        left: 20.417vw;
+        top: 4.167vh;
+    } 
+    .branch .carousel-inner-block figure {
+        order: 0;
+        margin-bottom: 10px; 
+        width: 100px;
+        height: 100px;
+    }
+    .carousel-inner-block .carousel-text-content {
+        order: 1;
+    }
+    .carousel-inner-block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-inner-block figure img {
+        width: 85px;
+    }
+    .carousel-inner-block .breadcrumb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-text-content h1 {
+        text-align: center;
+        max-width: 100% !important;
+        padding: 0 20px;
+    }
+    .branch .carousel-inner-block figure {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*------ Banner CSS End ------*/
+
+    /*------ Main Content CSS ------*/
+
+    .mt-32 {
+        margin-top: 32px;
+    }
+    .feature-card h5 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .feature-card p {
+        font-size: 18px;
+        line-height: 30px;
+    }    
+    .theme-bg .section-button-block .action-btn:last-child {
+        margin-bottom: 0;
+    }
+    .product-feature-card {
+        padding: 24px;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 0;
+        border-radius: 20px;
+    }
+    .product-feature-card:after {
+        border-radius: 20px;
+    }
+    .product-feature-card-inner h5 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .product-feature-card-inner p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .each-card-slider {
+        margin: 15px;
+        padding: 45px 18px;
+    }
+    .each-card-slider figure {
+        margin-bottom: 15px;
+    }
+    .card-slider-content h5 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 12px 0;
+    }
+    .card-slider-content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .theme-bg .section-button-block .action-btn {
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    .theme-bg .section-header h3 {
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .alert-card {
+        padding: 32px;
+        border-radius: 32px;
+    }
+
+    /*------ Main Content CSS End ------*/
+    
+}
+
+@media (max-width: 767px) {
+ 
+}

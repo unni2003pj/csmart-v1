@@ -1,0 +1,469 @@
+:root {
+    --contact-theme: linear-gradient(72deg, rgba(3, 66, 111, 0.25) 22.16%, rgba(63, 113, 89, 0.25) 45.64%, rgba(183, 33, 33, 0.25) 64.87%, rgba(255, 175, 0, 0.25) 76.47%), #000;
+}
+
+/*------ Banner CSS ------*/
+
+.contact .banner-block {
+    height: 570px;
+}
+.contact .banner-block {
+    background: var(--contact-theme);
+}
+.contact .banner-block:before {
+    content: none;
+    display: none;
+}
+.csmart-demo .banner-block::before {
+    content: none;
+}
+.csmart-demo .banner-block {
+    height: 7.813vw;
+}
+.contact .circle-sm-left {
+    top: 7.5vh;
+    left: -4.271vw;
+}
+.contact .triangle-sm-left {
+    left: 2.969vw;
+    top: 7.5vh;
+}
+.contact .triangle-lg-left {
+    left: 5.417vw;
+    top: 4.167vh;
+}
+.contact .circle-lg-center {
+    left: 16.615vw;
+    top: 4.259vh;
+}
+.contact .circle-sm-center {
+    left: 20.417vw;
+    top: 2.037vh;
+}
+.contact .triangle-bordered {
+    left: 0;
+    bottom: 7.593vh;
+}
+.contact .corner-art {
+    width: 6.198vw;
+    height: 8.981vh;
+    right: 30.185vh;
+    top: 2.344vw;
+}
+.contact .circle-sm-right {
+    right: -4.271vw;
+    bottom: 12.593vh;
+}
+.contact .circle-lg-right {
+    right: -15.926vh;
+    bottom: 3.281vw;
+}
+.contact .banner-block .container {
+    padding-bottom: 0;
+}
+.contact .carousel-text-content {
+    width: 100%;
+    max-width: 100%;
+}
+.carousel-text-content .breadcrumb {
+    margin-bottom: 8px;
+}
+.carousel-text-content .breadcrumb li {
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.667vw;
+    color: var(--grey-color);
+    display: flex;
+    align-items: center;
+}
+.branch .carousel-text-content h1, 
+.branch .carousel-text-content p {
+    max-width: 78%;
+}
+.carousel-text-content .breadcrumb-item.active {
+    color: var(--grey-color);
+    padding-left: 0.521vw;
+}
+
+/*------ Banner CSS End ------*/
+
+/*------ Main Content CSS ------*/
+
+.branch .section-content {
+    margin-top: 1.667vw;
+}
+.branch .line-art {
+    background-position: right top;
+}
+.height-align {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-container-block {
+    width: 100%;
+    padding: 1.563vw;
+    border-radius: 1.875vw;
+    background: #FFF;
+    box-shadow: 0px 24px 79px 0px rgba(0, 0, 0, 0.15);
+}
+.form-container-block h5 {
+    width: 100%;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.083vw;
+    margin-bottom: 1.25vw;
+}
+.input-block {
+    width: 100%;
+    margin: 0.625vw 0;
+    position: relative;
+}
+.input-block input {
+    width: 100%;
+    height: 2.5vw;
+    padding-left: 1.406vw;
+    font-size: 0.938vw;
+    font-weight: 400;
+    line-height: 1.563vw;
+    border: 1px solid var(--grey-color);
+    border-radius: 8px;
+}
+.input-block input::placeholder {
+    opacity: 1;
+    color: var(--grey-color) !important;
+}
+.select-box {
+    width: 100%;
+    margin: 0.625vw 0;
+    position: relative;
+}
+.select-box:after {
+    content: "";
+    width: 0.625vw;
+    height: 0.417vw;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.7745C1 1.91382 1.05133 2.05314 1.16132 2.16313L5.61228 6.61409C5.82493 6.82674 6.1769 6.82674 6.38955 6.61409L10.8405 2.16313C11.0532 1.95049 11.0532 1.59851 10.8405 1.38587C10.6279 1.17322 10.2759 1.17322 10.0632 1.38587L6.00091 5.44819L1.93859 1.38587C1.72594 1.17322 1.37397 1.17322 1.16132 1.38587C1.05133 1.48852 1 1.63518 1 1.7745Z' fill='%238893A8' stroke='%238893A8'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0.833vw;
+    top: 1.094vw;
+}
+.select-box select {
+    width: 100%;
+    height: 2.5vw;
+    font-size: 0.938vw;
+    font-weight: 400;
+    line-height: 1.563vw;
+    border: 1px solid var(--grey-color);
+    padding-left: 1.406vw;
+    border-radius: 8px;
+}
+.select-box select option:first-child {
+    width: 100%;
+    height: 2.5vw;
+    color: var(--grey-color);
+}
+.textarea-block {
+    width: 100%;
+    margin: 0.625vw 0;
+}
+.textarea-block textarea {
+    height: 6.771vw;
+    border: 1px solid var(--grey-color);
+    border-radius: 8px;
+    font-size: 0.938vw;
+    font-weight: 400;
+    line-height: 1.563vw;
+    padding: 0.469vw 1.406vw;
+    resize: none;
+}
+.textarea-block textarea::placeholder {
+    opacity: 1;
+    color: var(--grey-color) !important;
+}
+.form-container-block .section-button-block {
+    float: left;
+    width: 100%;
+    margin: 0.625vw 0;
+}
+.form-container-block .section-button-block .action-btn {
+    width: 100%;
+    height: 3.125vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.term-condition {
+    width: 100%;
+    margin-top: 0.625vw;
+}
+.term-condition p {
+    width: 100%;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.667vw;
+    color: var(--grey-color);
+}
+.height-align .section-button-block .action-btn:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M19.7961 12.3535L20.1496 12L19.7961 11.6464L14.2561 6.10644C14.1613 6.0117 14.1613 5.84829 14.2561 5.75355C14.3508 5.65881 14.5142 5.65881 14.6089 5.75355L20.6789 11.8235C20.7737 11.9183 20.7737 12.0817 20.6789 12.1764L14.6089 18.2464C14.5577 18.2977 14.497 18.32 14.4325 18.32C14.3571 18.32 14.2983 18.2912 14.268 18.2588L14.2621 18.2525L14.2561 18.2464C14.1613 18.1517 14.1613 17.9883 14.2561 17.8935L19.7961 12.3535Z' stroke='url(%23paint0_linear_3128_888)'/%3E%3Cpath d='M20.334 12.25H3.504C3.37014 12.25 3.254 12.1339 3.254 12C3.254 11.8661 3.37014 11.75 3.504 11.75H20.334C20.4679 11.75 20.584 11.8661 20.584 12C20.584 12.1339 20.4679 12.25 20.334 12.25Z' stroke='url(%23paint1_linear_3128_888)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_3128_888' x1='13.685' y1='6.2318' x2='18.9305' y2='5.31247' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2318A4FF'/%3E%3Cstop offset='1' stop-color='%2305C37F'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear_3128_888' x1='2.754' y1='11.3654' x2='3.57763' y2='8.18556' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2318A4FF'/%3E%3Cstop offset='1' stop-color='%2305C37F'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+}
+.contact-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.contact-card figure img {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+}
+.contact-card figure {
+    margin-bottom: 36px;
+}
+.contact-card h5 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.contact-card p {
+    width: 100%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-card p .down-arrow {
+    width: 10px;
+    height: 6px;
+    margin-left: 8px;
+}
+.csmart-demo .form-container-block {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+.csmart-demo .form-container-block .input-block input,
+.csmart-demo .form-container-block .select-box select,
+.csmart-demo .form-container-block .textarea-block textarea {
+    background: transparent;
+}
+
+/*------ Main Content CSS End ------*/
+
+
+
+@media(max-width: 1440px) {
+
+    /*------ Banner CSS ------*/
+
+    .contact .circle-lg-right {
+        right: -10.926vh;
+        bottom: 3.281vw;
+    }
+
+    /*------ Banner CSS End ------*/
+
+}
+
+@media(max-width: 1366px) { 
+
+    /*------ Banner CSS ------*/
+
+    .contact .circle-sm-right {
+        right: -1.271vw;
+    }
+    
+    .contact .triangle-bordered {
+        left: -2.229vw;
+    }
+    /* .csmart-demo .banner-block {
+        height: 120px;
+    } */
+
+    /*------ Banner CSS End ------*/
+}
+
+
+@media(max-width: 1280px) { 
+
+    /*------ Banner CSS ------*/
+
+    .contact .circle-sm-left {
+        left: -2.271vw;
+    }
+    .contact .circle-sm-right {
+        right: 1.729vw;
+    }
+    .contact .circle-lg-right {
+        right: -4.926vh;
+    }
+
+    /*------ Banner CSS End ------*/
+}
+
+@media(max-width: 1024px) { 
+
+    /*------ Banner CSS ------*/
+    
+    .csmart-demo .banner-block {
+        height: 80px;
+    }
+    .contact .circle-sm-left {
+        width: 15px;
+        left: 0.729vw;
+    }
+    .contact .triangle-sm-left {
+        left: 10.969vw;
+    }
+    .contact .triangle-lg-left {
+        left: 14.417vw;
+    }
+    .contact .triangle-bordered {
+        left: 0;
+    }
+    .contact .corner-art {
+        width: 48px;
+        right: 0;
+    }
+    .contact .circle-sm-right, 
+    .contact .circle-lg-right {
+        display: block;
+    }
+    .contact .circle-sm-right {
+        right: 5.729vw;
+    }
+    .contact .circle-lg-right {
+        right: 1.074vh;
+    }
+    .carousel-text-content .breadcrumb li {
+        font-size: 12px;
+    }
+    .contact .carousel-text-content h1, 
+    .contact .carousel-text-content p {
+        max-width: 100%;
+    }
+
+    /*------ Banner CSS End ------*/
+
+    /*------ Main Content CSS ------*/
+
+    .branch .section-content {
+        margin-top: 12px;
+    }
+    .height-align {
+        height: auto;
+    }
+    .section-area {
+        margin-bottom: 30px;
+    }
+    .form-container-block {
+        padding: 20p;
+    }
+    .contact-card {
+        margin: 20px 0;
+    }   
+    .contact-card:first-child {
+        margin-top: 40px;
+    }
+
+    .feature-card h5 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }    
+    .feature-card p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .input-block {
+        margin: 12px 0;
+    }
+    .input-block input {
+        height: 45px;
+        font-size: 15px;
+        padding: 0 20px;
+        margin-bottom: 12px;
+    }
+    .select-box {
+        margin: 12px 0;
+    }
+    .select-box select {
+        height: 45px;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0 40px 0 20px;
+    }
+    .select-box:after {
+        width: 12px;
+        height: 8px;
+        right: 18px;
+        top: 19px;
+    }
+    .textarea-block {
+        margin: 12px 0;
+    }
+    .textarea-block textarea {
+        height: 130px;
+        padding: 20px;
+        font-size: 16px;
+    }
+    .form-container-block .section-button-block {
+        margin: 12px 0;
+    }    
+    .form-container-block .section-button-block .action-btn {
+        height: 45px;
+    }    
+    .term-condition p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    
+
+    /*------ Main Content CSS End ------*/
+}
+
+@media (max-width: 767px) {
+
+    /*------ Header CSS ------*/
+
+    /* .branch .menu-panel {
+        background: var(--bs-theme);
+    } */
+    
+    /*------ Header CSS End ------*/
+
+    /*------ Banner CSS ------*/
+
+    .contact .triangle-lg-left {
+        left: 20.417vw;
+    }
+    .contact .circle-sm-right {
+        width: 15px;
+        right: 9.729vw;
+        bottom: 7.593vh;
+    }
+    .contact .circle-lg-right {
+        width: 30px;
+        right: 1.074vh;
+        bottom: 2.593vh;
+    }
+
+    /*------ Banner CSS End ------*/
+}

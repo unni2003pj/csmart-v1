@@ -1,0 +1,307 @@
+:root {
+    --bs-theme: linear-gradient(72deg, rgba(255, 0, 255, 0.25) 22.16%, rgba(255, 175, 0, 0.25) 76.47%), #000;
+}
+
+/*------ Banner CSS ------*/
+
+.branch .banner-block {
+    height: 29.688vw;
+}
+.business-solution .banner-block {
+    background: var(--bs-theme);
+}
+.branch .banner-block:before {
+    content: none;
+    display: none;
+}
+.branch .circle-sm-left {
+    top: 7.5vh;
+    left: -4.271vw;
+}
+.branch .triangle-sm-left {
+    left: 2.969vw;
+    top: 7.5vh;
+}
+.branch .triangle-lg-left {
+    left: 5.417vw;
+    top: 4.167vh;
+}
+.branch .circle-lg-center {
+    left: 16.615vw;
+    top: 4.259vh;
+}
+.branch .circle-sm-center {
+    left: 20.417vw;
+    top: 2.037vh;
+}
+.branch .triangle-bordered {
+    left: -8.229vw;
+    bottom: 7.593vh;
+}
+.branch .corner-art {
+    width: 6.198vw;
+    height: 8.981vh;
+    right: 30.185vh;
+    top: 2.344vw;
+}
+.branch .circle-sm-right {
+    right: -4.271vw;
+    bottom: 12.593vh;
+}
+.branch .circle-lg-right {
+    right: -15.926vh;
+    bottom: 3.281vw;
+}
+.branch .banner-block .container {
+    padding-bottom: 0;
+}
+.branch .carousel-text-content {
+    width: 100%;
+    max-width: 100%;
+}
+.branch .carousel-text-content h1, 
+.branch .carousel-text-content p {
+    max-width: 78%;
+}
+.carousel-text-content .breadcrumb-item.active {
+    color: var(--grey-color);
+    padding-left: 10px;
+}
+
+/*------ Banner CSS End ------*/
+
+/*------ Main Content CSS ------*/
+
+.branch .section-content {
+    margin-top: 1.667vw;
+}
+.branch .line-art {
+    background-position: right top;
+}
+.grid-card {
+    width: 100%;
+    margin: 1.667vw 0;
+}
+.grid-card h5 {
+    width: 100%;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.083vw;
+    margin-bottom: 1.667vw;
+}
+.grid-card p {
+    width: 100%;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.563vw;
+}
+.grid-card .section-button-block {
+    margin-top: 1.667vw;
+}
+.lg p {
+    font-size: 1.25vw;
+    line-height: 2.083vw;
+}
+.alert-card .action-btn {
+    flex-shrink: 0;
+    color: var(--white);
+}
+.cs-nav-tab .nav-pills .nav-link {
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25vw;
+    color: var(--text-color);
+    background: white;
+    border: 1px solid var(--theme-green);
+    padding: 1.042vw 1.667vw;
+    transition: .3s ease-out;
+}
+.cs-nav-tab .nav-pills .nav-link.active, 
+.cs-nav-tab .nav-pills .nav-link:hover {
+    background: var(--Brand, linear-gradient(72deg, #18A4FF 22.16%, #05C37F 76.47%));
+    border-color: transparent;
+    color: var(--white);
+}
+.cs-nav-tab .nav-pills .nav-item {
+    margin-right: 1.667vw;
+}
+.cs-nav-tab .nav-item:last-child {
+    margin-right: 0;
+}
+
+/*------ Main Content CSS End ------*/
+
+/*------ Media Queries ------*/
+
+@media(max-width: 1440px) {
+
+}
+
+@media(max-width: 1366px) { 
+
+    /*------ Banner CSS ------*/
+
+    .branch .circle-sm-right {
+        right: -1.271vw;
+    }
+    
+    .branch .triangle-bordered {
+        left: -2.229vw;
+    }
+
+    /*------ Banner CSS End ------*/
+}
+
+
+@media(max-width: 1280px) { 
+
+    /*------ Banner CSS ------*/
+
+    .branch .circle-sm-left {
+        left: -2.271vw;
+    }
+    .branch .circle-sm-right {
+        right: 1.729vw;
+    }
+    .branch .circle-lg-right {
+        right: -4.926vh;
+    }
+
+    /*------ Banner CSS End ------*/
+}
+
+@media(max-width: 1024px) { 
+
+    /*------ Banner CSS ------*/
+
+    .branch .banner-block {
+        height: 570px;
+    }    
+    .branch .circle-sm-left {
+        width: 15px;
+        left: 0.729vw;
+    }
+    .branch .triangle-sm-left {
+        left: 10.969vw;
+    }
+    .branch .triangle-lg-left {
+        left: 14.417vw;
+    }
+    .branch .triangle-bordered {
+        left: 0;
+    }
+    .branch .corner-art {
+        width: 48px;
+        right: 0;
+    }
+    .branch .circle-sm-right, 
+    .branch .circle-lg-right {
+        display: block;
+    }
+    .branch .circle-sm-right {
+        right: 5.729vw;
+    }
+    .branch .circle-lg-right {
+        right: 1.074vh;
+    }
+    .carousel-text-content .breadcrumb li {
+        font-size: 12px;
+    }
+    .branch .carousel-text-content h1, 
+    .branch .carousel-text-content p {
+        max-width: 100%;
+    }
+
+    /*------ Banner CSS End ------*/
+
+    /*------ Main Content CSS ------*/
+
+    .branch .section-content {
+        margin-top: 12px;
+    }
+    .alert-card {
+        padding: 20px;
+        border-radius: 32px;
+        flex-direction: column;
+        align-items: flex-start;
+    }    
+    .alert-card h5 {
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .grid-card {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .grid-card h5 {
+        margin-bottom: 15px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .grid-card p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .grid-card .section-button-block {
+        margin-top: 15px;
+    }
+    .lg p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .feature-card {
+        margin-bottom: 0;
+    }
+    .feature-card h5 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .feature-card p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .cs-nav-tab .nav-pills {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+    .cs-nav-tab .nav-pills .nav-item {
+        margin-right: 14px;
+        margin-bottom: 15px;
+    }
+    .cs-nav-tab .nav-pills .nav-link {
+        padding: 0 20px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    
+
+    /*------ Main Content CSS End ------*/
+}
+
+@media (max-width: 767px) {
+
+    /*------ Banner CSS ------*/
+
+    .branch .triangle-lg-left {
+        left: 20.417vw;
+    }
+    .branch .circle-sm-right {
+        width: 15px;
+        right: 9.729vw;
+        bottom: 7.593vh;
+    }
+    .branch .circle-lg-right {
+        width: 30px;
+        right: 1.074vh;
+        bottom: 2.593vh;
+    }
+
+    /*------ Banner CSS End ------*/
+}
